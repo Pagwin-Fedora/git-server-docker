@@ -1,5 +1,6 @@
-FROM alpine:3.4
+FROM alpine:3.18
 
+# keeping the original maintainer name due to the only change I'm making being a version bump on alpine
 MAINTAINER Carlos Bernárdez "carlos@z4studios.com"
 
 # "--no-cache" is new in Alpine 3.3 and it avoid using
